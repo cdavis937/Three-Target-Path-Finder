@@ -24,7 +24,7 @@ class Header {
 
         //Create rectangle on the top of the screen
         fill(50,150,255);
-        rect(0,0,windowWidth, 50);
+        rect(0,0,this.xMax * this.size, 50);
         fill(255,255,255);
 
         textSize(35);
